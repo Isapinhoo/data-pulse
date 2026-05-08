@@ -1,0 +1,35 @@
+# ============================================================
+# DataPulse — Radar Inteligente de Tendências
+# requirements.txt — dependências do projeto
+# ============================================================
+
+# --- Coleta de dados ---
+requests
+feedparser
+
+# --- Manipulação de dados ---
+pandas
+numpy
+
+# --- Processamento de linguagem natural ---
+nltk
+scikit-learn
+
+# --- Banco de dados ---
+# sqlite3 já vem embutido no Python
+
+# --- Visualização ---
+streamlit
+plotly
+wordcloud
+matplotlib
+Pillow
+
+# --- Utilitários ---
+python-dotenv
+tqdm
+colorama
+
+# --- Opcional: API com FastAPI ---
+fastapi
+uvicorn

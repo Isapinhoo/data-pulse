@@ -1,0 +1,68 @@
+# ============================================================
+# DataPulse — .gitignore
+# ============================================================
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Variáveis de ambiente (NUNCA commitar chaves de API!)
+.env
+.env.local
+.env.*.local
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Dados brutos e processados (podem ser grandes)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+
+# Jupyter Notebooks — checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Coverage e testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml

@@ -34,27 +34,37 @@ O DataPulse automatiza esse monitoramento com um pipeline de dados completo, des
 ### 📊 Visão Geral & Insights Automáticos
 > Métricas em tempo real + frases de insight geradas automaticamente pelo sistema.
 
+<!-- TODO: subir o print em docs/images/01_overview.png e descomentar
 ![Dashboard Overview](docs/images/01_overview.png)
+-->
 
 ### ☁️ Nuvem de Palavras & Ranking Top 10
 > Visualização imediata do vocabulário dominante no corpus do dia.
 
+<!-- TODO: subir o print em docs/images/02_wordcloud.png e descomentar
 ![Word Cloud](docs/images/02_wordcloud.png)
+-->
 
 ### 📈 Taxa de Crescimento & Frequência Global
 > Detecta quais palavras estão crescendo — não apenas quais são populares.
 
+<!-- TODO: subir o print em docs/images/03_trends.png e descomentar
 ![Trends](docs/images/03_trends.png)
+-->
 
 ### 🗂️ Clusters de Tópicos Identificados por ML
 > KMeans agrupa artigos em tópicos sem nenhum label manual.
 
+<!-- TODO: subir o print em docs/images/04_topics.png e descomentar
 ![Topics](docs/images/04_topics.png)
+-->
 
 ### 🔍 Explorador de Artigos Brutos
 > Todos os dados coletados acessíveis com links clicáveis direto para a fonte.
 
+<!-- TODO: subir o print em docs/images/05_rawdata.png e descomentar
 ![Raw Data](docs/images/05_rawdata.png)
+-->
 
 ---
 
@@ -269,7 +279,7 @@ data-pulse/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/data-pulse.git
+git clone https://github.com/Isapinhoo/data-pulse.git
 cd data-pulse
 
 # 2. Ambiente virtual
